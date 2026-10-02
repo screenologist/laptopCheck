@@ -13,7 +13,7 @@ administrator rights are needed.
 
 **Right-click** this link and choose **Save link as…**
 
-https://raw.githubusercontent.com/screenologist/touch_windows/main/LaptopCheck.ps1
+https://raw.githubusercontent.com/screenologist/laptopCheck/main/LaptopCheck.ps1
 
 Save it to your **Desktop**.
 
