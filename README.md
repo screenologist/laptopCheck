@@ -4,8 +4,10 @@ One report for your laptop: manufacturer support app, Windows version,
 drivers, BIOS, touchscreen and screen. 
 
 Once report completed, proceed to LAST SECTION of the report:
+
 **It tells you what to do and how to do it.** 
 **Check "WHAT TO DO" in generated report**
+
 
 It only reads information. Nothing is installed, removed or changed, and no
 administrator rights are needed.
