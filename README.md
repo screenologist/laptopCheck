@@ -1,8 +1,11 @@
 # Laptop Check
 
 One report for your laptop: manufacturer support app, Windows version,
-drivers, BIOS, touchscreen and screen. It tells you what needs doing and
-how to do it.
+drivers, BIOS, touchscreen and screen. 
+Once report completed, proceed to STEP 5
+
+**It tells you what needs doing and how to do it.** 
+**Check Read "WHAT TO DO" in generated report**
 
 It only reads information. Nothing is installed, removed or changed, and no
 administrator rights are needed.
@@ -119,13 +122,6 @@ The report is saved on your Desktop. Open it from there.
 | `-SkipWindowsUpdate` | Faster run, no online check |
 | `-OutputPath C:\Reports` | Save the report somewhere other than the Desktop |
 | `-NoPause` | Do not wait for Enter at the end (for scripted runs) |
-
-**Short version:** `PanelID.ps1` prints only the laptop, the screen (PnP ID,
-part number, max refresh) and the touch controller. Run it the same way; it
-accepts `-Label`, `-OutputPath` and `-NoPause` too. About half of laptop
-screens store their part number (roughly 4,200 of 8,300 laptop-size screens in
-a public collection of real screen data); for the rest you still get the PnP ID
-and refresh rate.
 
 **Testing:** put `Test-LaptopCheck.ps1` next to `LaptopCheck.ps1` and run
 `powershell -ExecutionPolicy Bypass -File .\Test-LaptopCheck.ps1`. It runs the
